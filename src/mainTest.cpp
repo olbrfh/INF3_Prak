@@ -22,11 +22,11 @@
 
 #include <unistd.h>
 
-#include "../headers/SHA256.H"
-#include "../headers/TASK3.H"
-#include "../headers/TASK4.H"
-#include "../headers/TASK5.H"
-#include "../headers/TASK6.H"
+#include "../include/SHA256.H"
+#include "../include/TASK3.H"
+#include "../include/TASK4.H"
+#include "../include/TASK5.H"
+#include "../include/TASK6.H"
 
 using namespace std;
 
