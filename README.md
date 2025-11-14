@@ -1,2 +1,3 @@
 # INF3_PRAK
-Source code for practicals WS2019/2020
+Source code for practicals WS25/26
+Unofficial updated version
