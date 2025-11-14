@@ -31,7 +31,7 @@ C++ client example using sockets
 
 
 
-#include "SIMPLESOCKET.H"
+#include "../headers/SIMPLESOCKET.H"
 
 using namespace std;
 

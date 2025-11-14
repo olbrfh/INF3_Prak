@@ -15,13 +15,11 @@
 
 #include <unistd.h>
 
-#include "SHA256.H"
-#include "TASK1.H"
-#include "TASK2.H"
-#include "TASK3.H"
-#include "TASK4.H"
-#include "TASK5.H"
-#include "TASK6.H"
+#include "../headers/SHA256.H"
+#include "../headers/TASK3.H"
+#include "../headers/TASK4.H"
+#include "../headers/TASK5.H"
+#include "../headers/TASK6.H"
 
 using namespace std;
 

@@ -3,40 +3,34 @@ CC=g++
 CFLAGS=$(shell pkg-config --cflags opencv) 
 LIBS=$(shell pkg-config --libs opencv) 
 
-OBJS= main.o  TASK1.o TASK2.o TASK3.o TASK4.o TASK5.o SHA256.o SIMPLESOCKET.o
+OBJS= main.o  TASK3.o TASK4.o TASK5.o SHA256.o SIMPLESOCKET.o
 DEMOTARGET=main server client mainTest
 
-client.o:	client.cpp
+client.o:	./src/client.cpp
 	$(CC) -c $<  -std=c++11
 
-server.o:	server.cpp
+server.o:	./src/server.cpp
 	$(CC) -c $<  -std=c++11
 
-SIMPLESOCKET.o:	SIMPLESOCKET.cpp
+SIMPLESOCKET.o:	./src/SIMPLESOCKET.cpp
 	$(CC) -c $<  -std=c++11
 
-SHA256.o:	SHA256.cpp
+SHA256.o:	./src/SHA256.cpp
 	$(CC) -c $<  -std=c++11
 
-TASK1.o:	TASK1.cpp
+TASK3.o:	./src/TASK3.cpp
 	$(CC) -c $<  -std=c++11
 
-TASK2.o:	TASK2.cpp
-	$(CC) -c $<  -std=c++11
-
-TASK3.o:	TASK3.cpp
-	$(CC) -c $<  -std=c++11
-
-TASK4.o:	TASK4.cpp
+TASK4.o:	./src/TASK4.cpp
 	$(CC) -c $<  -std=c++11 
 
-TASK5.o:	TASK5.cpp
+TASK5.o:	./src/TASK5.cpp
 	$(CC) -c $<  -std=c++11 
 
-main.o:	main.cpp
+main.o:	./src/main.cpp
 	$(CC) -c $<  -std=c++11	
 
-mainTest.o:	mainTest.cpp
+mainTest.o:	./src/mainTest.cpp
 	$(CC) -c $<  -std=c++11		
 
 
