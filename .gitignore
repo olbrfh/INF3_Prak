@@ -1,1 +1,8 @@
 .vscode/settings.json
+main
+main.o
+SHA256.o
+SIMPLESOCKET.o
+TASK3.o
+TASK4.o
+TASK5.o
